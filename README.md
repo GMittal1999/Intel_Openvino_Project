@@ -31,7 +31,7 @@ For this we have to install node and here we will be using express framework.
 all the libraries that nedd to be install is given in the file package.jason under the section dependencies.
 Here I have work mainly on backened so You will find My UI/UX not that attractive but this is beacause it is a protype only.
 Now what are all the files for our Rasperry pi and websites.
-RaspberryPi (all files except nodejs folder)
+RaspberryPi (all files except nodejs folder) (you have install openvino on the raspberry pi to run these)
 website (only node js folder)
 
 
