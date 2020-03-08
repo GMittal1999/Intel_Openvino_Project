@@ -1,0 +1,50 @@
+
+
+<!--  A Simple Remote to control our Raspberrypi car  -->
+<head>
+<style>
+.button {
+  height:100px;
+  width:150px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+</style>
+</head>
+<body>
+<div><center><img src="http://192.168.43.207:5000/video_feed"></center></div>
+<div><form action="/command" method="GET">
+<center>
+<table>
+<tr>
+<td></td>
+<td><button class="button" type="submit" value="forward" name="direction">FORWARD</button></td>
+<td></td>
+</tr>
+
+<tr>
+<td><button class="button" type="submit" value="left" name="direction">LEFT</button></td>
+<td><center><button class="button" type="submit" value="stop" name="direction">STOP</button></center></td>
+<td><button class="button" type="submit" value="right" name="direction">RIGHT</button></td>
+</tr>
+
+<tr>
+<td></td>
+<td><button class="button" type="submit" value="backward" name="direction">BACKWARD</button></td>
+<td></td>
+</tr>
+
+
+</table></center>
+
+
+
+
+</form></div>
+</body>
