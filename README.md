@@ -23,6 +23,7 @@ Actually to integrate the Pi Cam you will require a Camera.py file that i have i
 In this repositary I have not able to to upload the bin file for the object detetion as it too large but you can download it from open vino site as I have used the pre trained model of openvino for my project.
 the name of the files will be as follows:
 frozen_inference_graph.xml and frozen_inference_graph.bin
+for this I have use the same object model taught in the course. 
 
 Now for my website:-
 
