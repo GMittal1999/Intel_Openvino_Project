@@ -20,7 +20,9 @@ So How to run my project.
 
 Firstly you have to import the respetive files to run various files these are:- (Flask,RPI.GPO (for integration with raspberry Pi)) 
 Actually to integrate the Pi Cam you will require a Camera.py file that i have include in my project.
-
+In this repositary I have not able to to upload the bin file for the object detetion as it too large but you can download it from open vino site as I have used the pre trained model of openvino for my project.
+the name of the files will be as follows:
+frozen_inference_graph.xml and frozen_inference_graph.bin
 
 Now for my website:-
 
@@ -37,7 +39,8 @@ Now how to run my project:-
 Under the folder Camera_code there is file named camera_route.py this a file that contain the openvino code. Here check the CPU_Extension I have provided according to your openvino version and OS you have to change it.
 Now to run the whole project you have to run three files:-
 python_code.py
-camera_route.py (under folder camera code)
+camera_route.py (under folder camera code) (running this file you have to provide the path of your models xml file through command prompt)
+for installing openvino on raspberry pi ypu can
 app.js (under folder nodejs)
 Here in this python_code.py and camera_code.py I have defined the port So while running You have to free those port or change the code according to your free ports.
 
@@ -46,9 +49,13 @@ When all of this is done. ypo can see when you run your app.js file your website
 In that input box you have to specify the ip addres of your Raspberry pi and then click on submit.
 Now if everythings is done properly you will seelive feed from the camera and object are being detected in it and below that there are controls to to control your car.
 
+
 Limitations of my project.
 
 for this to implement in the real life one should need a private network whose reach is available allover the world which is very costly.
 
+
 Future aspects of my project.
 
+You can advance it to self driving concept.
+In this I have done object detection only but you can extend the idea to Lane detection distance between vehicles and give proper insight to the driver to make good decision. Then this software will act as good driver assistant.
