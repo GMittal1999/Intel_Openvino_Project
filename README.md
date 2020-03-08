@@ -60,3 +60,6 @@ Future aspects of my project.
 
 You can advance it to self driving concept.
 In this I have done object detection only but you can extend the idea to Lane detection distance between vehicles and give proper insight to the driver to make good decision. Then this software will act as good driver assistant.
+
+
+In this I have attached the image of my website with real time feed through the camera it is also detecting the ojects.
